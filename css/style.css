@@ -1,0 +1,141 @@
+
+html{
+    font-family: Lato;
+     font-size: 16px;
+     color: #333;
+}
+
+header{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0,.7)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    height: 100px; margin-top: 20px; float: left;
+}
+
+.main-nav{
+    float: right; list-style: none;
+}
+
+.main-nav li{
+    display: inline-block; margin-left: 20px;
+}
+
+.main-nav li a{
+    color: white; text-decoration: none; text-transform: uppercase;
+}
+.main-nav li a:hover{
+    color: orange; text-decoration: underline; 
+}
+
+.header-box{
+    position: absolute; top:50%; left: 20%;
+}
+h1{
+    color: white; font-size: 40px; text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.btn{
+    background-color: orange;
+     color: white;
+     margin-left: 15px;
+     padding: 10px 20px;
+     border-radius: 12px;
+text-decoration: none;
+}
+.btn:hover{
+    background-color: transparent;
+     color: orange;
+    border: solid 1px orange;
+}
+section{
+    padding: 40px 0;
+}
+h2{
+    text-align: center; 
+    text-transform: uppercase; font-size: 30px;
+}
+
+h2::after{
+    content: ""; display: block;
+     width: 100px; height: 3px;
+     border: tomato 3px solid;
+     margin: 15px auto;
+}
+
+.feat-info{
+    width: 60%;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.box i{
+    color: orange; font-size: 24px;
+}
+.box p{
+   line-height: 18px;
+}
+
+.meal{
+    padding: 0;
+}
+.meal img{
+    width: 100%;
+}
+
+.works-left{
+    text-align: right;
+}
+.iPhone{
+    width: 40%; 
+}
+
+.step{
+    display: flex;
+}
+
+.num{
+    width: 40px;height: 40px;
+    border: solid orange 2px;
+    border-radius: 50%;
+    padding: 8px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.city img{
+    width: 100%;
+}
+
+.city i{
+    color: orange;
+    margin-right: 10px;
+}
+
+#testimonials{
+    background-image:linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0,.7)) , url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#testimonials img{
+    width: 50px ; height: 50px; border-radius: 50%; vertical-align: middle;
+}
+
+
+input[type=text] , input[type=email] , textarea{
+    margin-bottom: 7px; width: 100%;
+    padding: 7px; border-radius: 5px;
+    border: solid orange 1px;
+}
+
+input[type=submit]{
+    background-color: orange; color: whitesmoke;
+    border-radius: 20px; padding: 20px 50px; border: solid greenyellow;
+}
